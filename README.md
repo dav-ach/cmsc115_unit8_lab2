@@ -28,16 +28,18 @@ Commit message:
 ## Iteration 2
 
 What changed:
--
+- After using a prompt that contained implementation instructions, `duck.ai` generated a method for me.
+- I had to update the parameter because I didn't provide the method prototype, but almost every test passed.
+- It generated a proper loop, with almost everything working. 
 
 What improved:
--
+- The content, with a more sophisticated prompt.
 
 What still failed and why:
--
+- testEmptyArray, because the AI generated code to throw an `IllegalArgumentException` instead of returning a specific value.
 
 Commit message:
--
+- Iteration 2: largest value implementation
 
 ---
 

@@ -9,7 +9,18 @@ public class NumberProgram {
     }
 
     public static int findResult(int[] values) {
-        // TODO: implement logic
-        return 0;
+        if (values == null || values.length == 0) {
+            throw new IllegalArgumentException("Array must not be null or empty");
+        }
+
+        int largest = values[0];
+
+        for (int i = 1; i < values.length; i++) {
+            if (values[i] > largest) {
+                largest = values[i];
+            }
+        }
+
+        return largest;
     }
 }
