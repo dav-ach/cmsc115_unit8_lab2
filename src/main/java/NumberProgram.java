@@ -9,6 +9,7 @@ public class NumberProgram {
     }
 
     public static int findResult(int[] values) {
+        // TODO: implement logic
         return 0;
     }
 }

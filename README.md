@@ -1,24 +1,27 @@
 # Reflection – AI Number Program Lab
 
 ##  Student Name:
-(Enter your name here)
+Christopher Davis
 
 ##  GitHub Repository Link:
-(Insert your repository URL here)
+https://github.com/dav-ach/cmsc115_unit8_lab2.git
 
 ## Iteration 1
 
 What the AI code does:
--
+- It inserted a comment, and did nothing.
 
 Tests passed/failed:
--
+- Failed: `testBasicArray`
+- Failed: `testEmptyArray`
+- Failed: `testSingleValue`
+- Failed: `testNegativeNumbers`
 
 What surprised you:
--
+- I'm surprised that ChatGPT did nothing, but give me a stub.
 
 Commit message:
--
+- Iteration 1: AI-generated implementation
 
 ---
 
