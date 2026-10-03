@@ -46,21 +46,25 @@ Commit message:
 ## Iteration 3
 
 Final behavior:
--
+- All tests pass.
 
 What was fixed:
--
+- Inside the input validation, the specific value was returned.
 
 What you learned:
--
+- A more sophisticated prompt in conjunction with tests make development with AIs pretty decent.
+- Although I most likely still won't participate in TDD.
 
 Commit message:
--
+- Iteration 3: final version passing all tests
 
 ---
 
 ## Final Reflection
 
 - How did AI responses change across prompts?
+  - The output generated improved across executions.
 - How did testing affect your changes?
+  - Testing helped deal with specific input validation, and edge cases.
 - What did version control help you understand?
+  - Saving steps in between changes helped understand the issues being addressed.

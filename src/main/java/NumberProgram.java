@@ -10,7 +10,7 @@ public class NumberProgram {
 
     public static int findResult(int[] values) {
         if (values == null || values.length == 0) {
-            throw new IllegalArgumentException("Array must not be null or empty");
+            return Integer.MIN_VALUE;
         }
 
         int largest = values[0];
